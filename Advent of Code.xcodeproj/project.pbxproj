@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		583ABB0D275AB204001F8F05 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB0C275AB204001F8F05 /* main.swift */; };
+		583ABB15275AB255001F8F05 /* sonarSweep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB14275AB255001F8F05 /* sonarSweep.swift */; };
+		583ABB17275AB29E001F8F05 /* input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB16275AB29E001F8F05 /* input.swift */; };
+		583ABB1D275ABC73001F8F05 /* input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB1C275ABC73001F8F05 /* input.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		583ABB09275AB204001F8F05 /* Advent of Code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent of Code"; sourceTree = BUILT_PRODUCTS_DIR; };
 		583ABB0C275AB204001F8F05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		583ABB14275AB255001F8F05 /* sonarSweep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sonarSweep.swift; sourceTree = "<group>"; };
+		583ABB16275AB29E001F8F05 /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
+		583ABB1C275ABC73001F8F05 /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,27 @@
 			isa = PBXGroup;
 			children = (
 				583ABB0C275AB204001F8F05 /* main.swift */,
+				583ABB13275AB218001F8F05 /* Day 1 */,
+				583ABB1B275ABBC6001F8F05 /* Day 2 */,
 			);
 			path = "Advent of Code";
+			sourceTree = "<group>";
+		};
+		583ABB13275AB218001F8F05 /* Day 1 */ = {
+			isa = PBXGroup;
+			children = (
+				583ABB14275AB255001F8F05 /* sonarSweep.swift */,
+				583ABB16275AB29E001F8F05 /* input.swift */,
+			);
+			path = "Day 1";
+			sourceTree = "<group>";
+		};
+		583ABB1B275ABBC6001F8F05 /* Day 2 */ = {
+			isa = PBXGroup;
+			children = (
+				583ABB1C275ABC73001F8F05 /* input.swift */,
+			);
+			path = "Day 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				583ABB0D275AB204001F8F05 /* main.swift in Sources */,
+				583ABB17275AB29E001F8F05 /* input.swift in Sources */,
+				583ABB1D275ABC73001F8F05 /* input.swift in Sources */,
+				583ABB15275AB255001F8F05 /* sonarSweep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
