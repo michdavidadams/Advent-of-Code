@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("\(threeMeasurementWindow(depthMeasurements: depthMeasurements))")
+print("\(getFinalPositionsWithAim(plannedCourse: plannedCourse))")
 
