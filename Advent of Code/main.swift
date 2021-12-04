@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("\(getPowerConsumption(diagnosticReport: diagnosticReport))")
+print("\(lifeSupportRating(diagnosticReport: diagnosticReport))")
 
