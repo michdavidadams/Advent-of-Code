@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("\(getFinalPositionsWithAim(plannedCourse: plannedCourse))")
+print("\(getPowerConsumption(diagnosticReport: diagnosticReport))")
 
