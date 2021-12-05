@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("\(lifeSupportRating(diagnosticReport: diagnosticReport))")
+print("\(winningBoard(drawnNumbers: drawnNumbers, bingoBoards: bingoBoards))")
 

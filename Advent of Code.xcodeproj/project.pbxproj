@@ -14,6 +14,8 @@
 		583ABB1F275AC418001F8F05 /* dive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB1E275AC418001F8F05 /* dive.swift */; };
 		583ABB22275AD092001F8F05 /* diagnosticReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB21275AD092001F8F05 /* diagnosticReport.swift */; };
 		583ABB24275AD175001F8F05 /* binaryDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB23275AD175001F8F05 /* binaryDiagnostics.swift */; };
+		583ABB27275BD9D4001F8F05 /* giantSquid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB26275BD9D4001F8F05 /* giantSquid.swift */; };
+		583ABB29275BDA4C001F8F05 /* bingoSubsystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB28275BDA4C001F8F05 /* bingoSubsystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,8 @@
 		583ABB1E275AC418001F8F05 /* dive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dive.swift; sourceTree = "<group>"; };
 		583ABB21275AD092001F8F05 /* diagnosticReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diagnosticReport.swift; sourceTree = "<group>"; };
 		583ABB23275AD175001F8F05 /* binaryDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaryDiagnostics.swift; sourceTree = "<group>"; };
+		583ABB26275BD9D4001F8F05 /* giantSquid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giantSquid.swift; sourceTree = "<group>"; };
+		583ABB28275BDA4C001F8F05 /* bingoSubsystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bingoSubsystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 				583ABB13275AB218001F8F05 /* Day 1 */,
 				583ABB1B275ABBC6001F8F05 /* Day 2 */,
 				583ABB20275ACFB7001F8F05 /* Day 3 */,
+				583ABB25275BD987001F8F05 /* Day 4 */,
 			);
 			path = "Advent of Code";
 			sourceTree = "<group>";
@@ -102,6 +107,15 @@
 				583ABB21275AD092001F8F05 /* diagnosticReport.swift */,
 			);
 			path = "Day 3";
+			sourceTree = "<group>";
+		};
+		583ABB25275BD987001F8F05 /* Day 4 */ = {
+			isa = PBXGroup;
+			children = (
+				583ABB26275BD9D4001F8F05 /* giantSquid.swift */,
+				583ABB28275BDA4C001F8F05 /* bingoSubsystem.swift */,
+			);
+			path = "Day 4";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				583ABB0D275AB204001F8F05 /* main.swift in Sources */,
+				583ABB29275BDA4C001F8F05 /* bingoSubsystem.swift in Sources */,
 				583ABB24275AD175001F8F05 /* binaryDiagnostics.swift in Sources */,
 				583ABB17275AB29E001F8F05 /* depthMeasurements.swift in Sources */,
 				583ABB1F275AC418001F8F05 /* dive.swift in Sources */,
+				583ABB27275BD9D4001F8F05 /* giantSquid.swift in Sources */,
 				583ABB1D275ABC73001F8F05 /* plannedCourse.swift in Sources */,
 				583ABB22275AD092001F8F05 /* diagnosticReport.swift in Sources */,
 				583ABB15275AB255001F8F05 /* sonarSweep.swift in Sources */,
