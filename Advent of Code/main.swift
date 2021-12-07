@@ -7,5 +7,4 @@
 
 import Foundation
 
-print("\(winningBoard(drawnNumbers: drawnNumbers, bingoBoards: bingoBoards))")
-
+print(moveCrabs2(crabHorizontalPositions: testCrabHorizontalPositions))

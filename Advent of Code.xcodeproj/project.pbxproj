@@ -16,6 +16,10 @@
 		583ABB24275AD175001F8F05 /* binaryDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB23275AD175001F8F05 /* binaryDiagnostics.swift */; };
 		583ABB27275BD9D4001F8F05 /* giantSquid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB26275BD9D4001F8F05 /* giantSquid.swift */; };
 		583ABB29275BDA4C001F8F05 /* bingoSubsystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB28275BDA4C001F8F05 /* bingoSubsystem.swift */; };
+		58E8E9F4275E9CF00044817C /* linesOfVents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9F3275E9CF00044817C /* linesOfVents.swift */; };
+		58E8E9F6275E9EBF0044817C /* hydrothermalVenture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9F5275E9EBF0044817C /* hydrothermalVenture.swift */; };
+		58E8E9FB275FD5580044817C /* theTreacheryOfWhales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9FA275FD5580044817C /* theTreacheryOfWhales.swift */; };
+		58E8E9FD275FD5710044817C /* crabHorizontalPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9FC275FD5710044817C /* crabHorizontalPositions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +45,10 @@
 		583ABB23275AD175001F8F05 /* binaryDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaryDiagnostics.swift; sourceTree = "<group>"; };
 		583ABB26275BD9D4001F8F05 /* giantSquid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giantSquid.swift; sourceTree = "<group>"; };
 		583ABB28275BDA4C001F8F05 /* bingoSubsystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bingoSubsystem.swift; sourceTree = "<group>"; };
+		58E8E9F3275E9CF00044817C /* linesOfVents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linesOfVents.swift; sourceTree = "<group>"; };
+		58E8E9F5275E9EBF0044817C /* hydrothermalVenture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydrothermalVenture.swift; sourceTree = "<group>"; };
+		58E8E9FA275FD5580044817C /* theTreacheryOfWhales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theTreacheryOfWhales.swift; sourceTree = "<group>"; };
+		58E8E9FC275FD5710044817C /* crabHorizontalPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crabHorizontalPositions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,8 @@
 				583ABB1B275ABBC6001F8F05 /* Day 2 */,
 				583ABB20275ACFB7001F8F05 /* Day 3 */,
 				583ABB25275BD987001F8F05 /* Day 4 */,
+				58E8E9F2275E9CBB0044817C /* Day 5 */,
+				58E8E9F9275FD52D0044817C /* Day 7 */,
 			);
 			path = "Advent of Code";
 			sourceTree = "<group>";
@@ -116,6 +126,24 @@
 				583ABB28275BDA4C001F8F05 /* bingoSubsystem.swift */,
 			);
 			path = "Day 4";
+			sourceTree = "<group>";
+		};
+		58E8E9F2275E9CBB0044817C /* Day 5 */ = {
+			isa = PBXGroup;
+			children = (
+				58E8E9F5275E9EBF0044817C /* hydrothermalVenture.swift */,
+				58E8E9F3275E9CF00044817C /* linesOfVents.swift */,
+			);
+			path = "Day 5";
+			sourceTree = "<group>";
+		};
+		58E8E9F9275FD52D0044817C /* Day 7 */ = {
+			isa = PBXGroup;
+			children = (
+				58E8E9FA275FD5580044817C /* theTreacheryOfWhales.swift */,
+				58E8E9FC275FD5710044817C /* crabHorizontalPositions.swift */,
+			);
+			path = "Day 7";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,14 +204,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E8E9FD275FD5710044817C /* crabHorizontalPositions.swift in Sources */,
 				583ABB0D275AB204001F8F05 /* main.swift in Sources */,
+				58E8E9F6275E9EBF0044817C /* hydrothermalVenture.swift in Sources */,
 				583ABB29275BDA4C001F8F05 /* bingoSubsystem.swift in Sources */,
 				583ABB24275AD175001F8F05 /* binaryDiagnostics.swift in Sources */,
 				583ABB17275AB29E001F8F05 /* depthMeasurements.swift in Sources */,
 				583ABB1F275AC418001F8F05 /* dive.swift in Sources */,
 				583ABB27275BD9D4001F8F05 /* giantSquid.swift in Sources */,
 				583ABB1D275ABC73001F8F05 /* plannedCourse.swift in Sources */,
+				58E8E9F4275E9CF00044817C /* linesOfVents.swift in Sources */,
 				583ABB22275AD092001F8F05 /* diagnosticReport.swift in Sources */,
+				58E8E9FB275FD5580044817C /* theTreacheryOfWhales.swift in Sources */,
 				583ABB15275AB255001F8F05 /* sonarSweep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
