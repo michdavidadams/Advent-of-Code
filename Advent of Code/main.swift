@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(moveCrabs2(crabHorizontalPositions: testCrabHorizontalPositions))
+print(easyDigits(signalDigits: signalDigits))

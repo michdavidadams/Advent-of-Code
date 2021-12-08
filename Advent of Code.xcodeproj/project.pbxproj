@@ -20,6 +20,8 @@
 		58E8E9F6275E9EBF0044817C /* hydrothermalVenture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9F5275E9EBF0044817C /* hydrothermalVenture.swift */; };
 		58E8E9FB275FD5580044817C /* theTreacheryOfWhales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9FA275FD5580044817C /* theTreacheryOfWhales.swift */; };
 		58E8E9FD275FD5710044817C /* crabHorizontalPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9FC275FD5710044817C /* crabHorizontalPositions.swift */; };
+		58E8EA0027614F7C0044817C /* signalDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9FF27614F7C0044817C /* signalDigits.swift */; };
+		58E8EA02276153B40044817C /* sevenSegmentSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA01276153B40044817C /* sevenSegmentSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +51,8 @@
 		58E8E9F5275E9EBF0044817C /* hydrothermalVenture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydrothermalVenture.swift; sourceTree = "<group>"; };
 		58E8E9FA275FD5580044817C /* theTreacheryOfWhales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theTreacheryOfWhales.swift; sourceTree = "<group>"; };
 		58E8E9FC275FD5710044817C /* crabHorizontalPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crabHorizontalPositions.swift; sourceTree = "<group>"; };
+		58E8E9FF27614F7C0044817C /* signalDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signalDigits.swift; sourceTree = "<group>"; };
+		58E8EA01276153B40044817C /* sevenSegmentSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevenSegmentSearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				583ABB25275BD987001F8F05 /* Day 4 */,
 				58E8E9F2275E9CBB0044817C /* Day 5 */,
 				58E8E9F9275FD52D0044817C /* Day 7 */,
+				58E8E9FE276149CB0044817C /* Day 8 */,
 			);
 			path = "Advent of Code";
 			sourceTree = "<group>";
@@ -144,6 +149,15 @@
 				58E8E9FC275FD5710044817C /* crabHorizontalPositions.swift */,
 			);
 			path = "Day 7";
+			sourceTree = "<group>";
+		};
+		58E8E9FE276149CB0044817C /* Day 8 */ = {
+			isa = PBXGroup;
+			children = (
+				58E8EA01276153B40044817C /* sevenSegmentSearch.swift */,
+				58E8E9FF27614F7C0044817C /* signalDigits.swift */,
+			);
+			path = "Day 8";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +221,10 @@
 				58E8E9FD275FD5710044817C /* crabHorizontalPositions.swift in Sources */,
 				583ABB0D275AB204001F8F05 /* main.swift in Sources */,
 				58E8E9F6275E9EBF0044817C /* hydrothermalVenture.swift in Sources */,
+				58E8EA0027614F7C0044817C /* signalDigits.swift in Sources */,
 				583ABB29275BDA4C001F8F05 /* bingoSubsystem.swift in Sources */,
 				583ABB24275AD175001F8F05 /* binaryDiagnostics.swift in Sources */,
+				58E8EA02276153B40044817C /* sevenSegmentSearch.swift in Sources */,
 				583ABB17275AB29E001F8F05 /* depthMeasurements.swift in Sources */,
 				583ABB1F275AC418001F8F05 /* dive.swift in Sources */,
 				583ABB27275BD9D4001F8F05 /* giantSquid.swift in Sources */,
