@@ -23,3 +23,19 @@ func easyDigits(signalDigits: [[[String]]]) {
     }
     print(timesAppears)
 }
+
+// MARK: - Part 2
+func allDigits(signalDigits: [[[String]]]) {
+    
+    var timesAppears = 0
+    
+    for singleEntry in signalDigits {
+        for input in singleEntry[1] {
+            
+            if input.count == 2 || input.count == 4 || input.count == 3 || input.count == 7 {
+                timesAppears += 1
+            }
+        }
+    }
+    print(timesAppears)
+}

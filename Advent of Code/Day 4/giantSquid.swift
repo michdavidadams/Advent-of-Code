@@ -51,7 +51,6 @@ func winningBoard(drawnNumbers: [Int], bingoBoards: [[[Int]]]) {
                 } else {
                 }
             }
-            
         }
         index += 1
     }
@@ -59,22 +58,24 @@ func winningBoard(drawnNumbers: [Int], bingoBoards: [[[Int]]]) {
 
 // MARK: - Part 2
 func lastBoard(drawnNumbers: [Int], bingoBoards: [[[Int]]]) {
-    // Has a bingo card been completed yet?
-    var bingoCardCompleted = false
     
     var pastDrawnNumbers: [Int] = [drawnNumbers[0]]
     var index = 0
     var sum = 0
-    var totalCards = 0
+    var totalCardsWon = 0
+    var boardIndices: [Int] = [0000009]
+    var boardIndex = 0
+    print("There are \(bingoBoards.count) boards.")
     
-    while bingoCardCompleted == false {
+    while boardIndices.count < bingoBoards.count {
+        boardIndex = 0
+        totalCardsWon = 0
         pastDrawnNumbers.append(drawnNumbers[index])
+        
         for board in bingoBoards {
+            sum = 0
             for i in 0...4 {
                 if pastDrawnNumbers.contains(board[0][i]) && pastDrawnNumbers.contains(board[1][i]) && pastDrawnNumbers.contains(board[2][i]) && pastDrawnNumbers.contains(board[3][i]) && pastDrawnNumbers.contains(board[4][i]) {
-                    print("Winning column: \(i)")
-                    print("Winning board: \(board)")
-                    print("Winning numbers: \(pastDrawnNumbers)")
                     for row in board {
                         for i in 0...4 {
                             if pastDrawnNumbers.contains(row[i]) {
@@ -83,13 +84,15 @@ func lastBoard(drawnNumbers: [Int], bingoBoards: [[[Int]]]) {
                             }
                         }
                     }
-                    print("*** Loop \(index) ***")
-                    print(sum * pastDrawnNumbers.last!)
-                    totalCards += 1
+                    
+                    if boardIndices.contains(boardIndex) {
+                        totalCardsWon += 1
+                    } else {
+                        boardIndices.append(boardIndex)
+                        print("Board \(boardIndex), Sum: \(sum), Last number: \(pastDrawnNumbers.last!)")
+                        totalCardsWon += 1
+                    }
                 } else if pastDrawnNumbers.contains(board[i][0]) && pastDrawnNumbers.contains(board[i][1]) && pastDrawnNumbers.contains(board[i][2]) && pastDrawnNumbers.contains(board[i][3]) && pastDrawnNumbers.contains(board[i][4]) {
-                    print("Winning row: \(i)")
-                    print("Winning board: \(board)")
-                    print("Winning numbers: \(pastDrawnNumbers)")
                     for row in board {
                         for i in 0...4 {
                             if pastDrawnNumbers.contains(row[i]) {
@@ -98,19 +101,22 @@ func lastBoard(drawnNumbers: [Int], bingoBoards: [[[Int]]]) {
                             }
                         }
                     }
-                    print("*** Loop \(index) ***")
-                    print(sum * pastDrawnNumbers.last!)
-                    totalCards += 1
+                    if boardIndices.contains(boardIndex) {
+                    } else {
+                        boardIndices.append(boardIndex)
+                        print("Board \(boardIndex), Sum: \(sum), Last number: \(pastDrawnNumbers.last!)")
+                    }
                 } else {
                 }
             }
-            
-        }
-        if totalCards == bingoBoards.count {
-            bingoCardCompleted = true
-        }
         
+            boardIndex += 1
+        }
         index += 1
-        totalCards = 0
+        totalCardsWon = boardIndices.count
+        print("Boards completed: \(boardIndices.count - 1).")
     }
+    print("Last board: \(boardIndices.last!), Last drawn number: \(pastDrawnNumbers.last!)")
+    print("Boards completed: \(boardIndices.count - 1).")
+    
 }

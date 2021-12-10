@@ -22,6 +22,8 @@
 		58E8E9FD275FD5710044817C /* crabHorizontalPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9FC275FD5710044817C /* crabHorizontalPositions.swift */; };
 		58E8EA0027614F7C0044817C /* signalDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9FF27614F7C0044817C /* signalDigits.swift */; };
 		58E8EA02276153B40044817C /* sevenSegmentSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA01276153B40044817C /* sevenSegmentSearch.swift */; };
+		58E8EA0527629C840044817C /* smokeBasin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA0427629C840044817C /* smokeBasin.swift */; };
+		58E8EA0727629D1F0044817C /* heightmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA0627629D1F0044817C /* heightmap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +55,8 @@
 		58E8E9FC275FD5710044817C /* crabHorizontalPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crabHorizontalPositions.swift; sourceTree = "<group>"; };
 		58E8E9FF27614F7C0044817C /* signalDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signalDigits.swift; sourceTree = "<group>"; };
 		58E8EA01276153B40044817C /* sevenSegmentSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevenSegmentSearch.swift; sourceTree = "<group>"; };
+		58E8EA0427629C840044817C /* smokeBasin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smokeBasin.swift; sourceTree = "<group>"; };
+		58E8EA0627629D1F0044817C /* heightmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heightmap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 				58E8E9F2275E9CBB0044817C /* Day 5 */,
 				58E8E9F9275FD52D0044817C /* Day 7 */,
 				58E8E9FE276149CB0044817C /* Day 8 */,
+				58E8EA0327629C6E0044817C /* Day 9 */,
 			);
 			path = "Advent of Code";
 			sourceTree = "<group>";
@@ -160,6 +165,15 @@
 			path = "Day 8";
 			sourceTree = "<group>";
 		};
+		58E8EA0327629C6E0044817C /* Day 9 */ = {
+			isa = PBXGroup;
+			children = (
+				58E8EA0427629C840044817C /* smokeBasin.swift */,
+				58E8EA0627629D1F0044817C /* heightmap.swift */,
+			);
+			path = "Day 9";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,7 +238,9 @@
 				58E8EA0027614F7C0044817C /* signalDigits.swift in Sources */,
 				583ABB29275BDA4C001F8F05 /* bingoSubsystem.swift in Sources */,
 				583ABB24275AD175001F8F05 /* binaryDiagnostics.swift in Sources */,
+				58E8EA0727629D1F0044817C /* heightmap.swift in Sources */,
 				58E8EA02276153B40044817C /* sevenSegmentSearch.swift in Sources */,
+				58E8EA0527629C840044817C /* smokeBasin.swift in Sources */,
 				583ABB17275AB29E001F8F05 /* depthMeasurements.swift in Sources */,
 				583ABB1F275AC418001F8F05 /* dive.swift in Sources */,
 				583ABB27275BD9D4001F8F05 /* giantSquid.swift in Sources */,

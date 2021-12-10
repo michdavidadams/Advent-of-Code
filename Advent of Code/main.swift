@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(easyDigits(signalDigits: signalDigits))
+print(lastBoard(drawnNumbers: drawnNumbers, bingoBoards: bingoBoards))
