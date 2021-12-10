@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(lastBoard(drawnNumbers: drawnNumbers, bingoBoards: bingoBoards))
+print(firstIllegalCharacter(navigationSubsystem: navigationSubsystem))

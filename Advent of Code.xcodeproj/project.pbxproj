@@ -24,6 +24,8 @@
 		58E8EA02276153B40044817C /* sevenSegmentSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA01276153B40044817C /* sevenSegmentSearch.swift */; };
 		58E8EA0527629C840044817C /* smokeBasin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA0427629C840044817C /* smokeBasin.swift */; };
 		58E8EA0727629D1F0044817C /* heightmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA0627629D1F0044817C /* heightmap.swift */; };
+		58E8EA0A2763F2D30044817C /* syntaxScoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA092763F2D30044817C /* syntaxScoring.swift */; };
+		58E8EA0C2763F31B0044817C /* navigationSubsystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA0B2763F31B0044817C /* navigationSubsystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +59,8 @@
 		58E8EA01276153B40044817C /* sevenSegmentSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevenSegmentSearch.swift; sourceTree = "<group>"; };
 		58E8EA0427629C840044817C /* smokeBasin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smokeBasin.swift; sourceTree = "<group>"; };
 		58E8EA0627629D1F0044817C /* heightmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heightmap.swift; sourceTree = "<group>"; };
+		58E8EA092763F2D30044817C /* syntaxScoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = syntaxScoring.swift; sourceTree = "<group>"; };
+		58E8EA0B2763F31B0044817C /* navigationSubsystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationSubsystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 				58E8E9F9275FD52D0044817C /* Day 7 */,
 				58E8E9FE276149CB0044817C /* Day 8 */,
 				58E8EA0327629C6E0044817C /* Day 9 */,
+				58E8EA082763F2AB0044817C /* Day 10 */,
 			);
 			path = "Advent of Code";
 			sourceTree = "<group>";
@@ -174,6 +179,15 @@
 			path = "Day 9";
 			sourceTree = "<group>";
 		};
+		58E8EA082763F2AB0044817C /* Day 10 */ = {
+			isa = PBXGroup;
+			children = (
+				58E8EA092763F2D30044817C /* syntaxScoring.swift */,
+				58E8EA0B2763F31B0044817C /* navigationSubsystem.swift */,
+			);
+			path = "Day 10";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,10 +256,12 @@
 				58E8EA02276153B40044817C /* sevenSegmentSearch.swift in Sources */,
 				58E8EA0527629C840044817C /* smokeBasin.swift in Sources */,
 				583ABB17275AB29E001F8F05 /* depthMeasurements.swift in Sources */,
+				58E8EA0C2763F31B0044817C /* navigationSubsystem.swift in Sources */,
 				583ABB1F275AC418001F8F05 /* dive.swift in Sources */,
 				583ABB27275BD9D4001F8F05 /* giantSquid.swift in Sources */,
 				583ABB1D275ABC73001F8F05 /* plannedCourse.swift in Sources */,
 				58E8E9F4275E9CF00044817C /* linesOfVents.swift in Sources */,
+				58E8EA0A2763F2D30044817C /* syntaxScoring.swift in Sources */,
 				583ABB22275AD092001F8F05 /* diagnosticReport.swift in Sources */,
 				58E8E9FB275FD5580044817C /* theTreacheryOfWhales.swift in Sources */,
 				583ABB15275AB255001F8F05 /* sonarSweep.swift in Sources */,
