@@ -26,6 +26,8 @@
 		58E8EA0727629D1F0044817C /* heightmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA0627629D1F0044817C /* heightmap.swift */; };
 		58E8EA0A2763F2D30044817C /* syntaxScoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA092763F2D30044817C /* syntaxScoring.swift */; };
 		58E8EA0C2763F31B0044817C /* navigationSubsystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA0B2763F31B0044817C /* navigationSubsystem.swift */; };
+		58E8EA0F276546C50044817C /* dumboOctopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA0E276546C50044817C /* dumboOctopus.swift */; };
+		58E8EA11276547A10044817C /* flashes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA10276547A10044817C /* flashes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +63,8 @@
 		58E8EA0627629D1F0044817C /* heightmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heightmap.swift; sourceTree = "<group>"; };
 		58E8EA092763F2D30044817C /* syntaxScoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = syntaxScoring.swift; sourceTree = "<group>"; };
 		58E8EA0B2763F31B0044817C /* navigationSubsystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationSubsystem.swift; sourceTree = "<group>"; };
+		58E8EA0E276546C50044817C /* dumboOctopus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dumboOctopus.swift; sourceTree = "<group>"; };
+		58E8EA10276547A10044817C /* flashes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flashes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				58E8E9FE276149CB0044817C /* Day 8 */,
 				58E8EA0327629C6E0044817C /* Day 9 */,
 				58E8EA082763F2AB0044817C /* Day 10 */,
+				58E8EA0D276546AB0044817C /* Day 11 */,
 			);
 			path = "Advent of Code";
 			sourceTree = "<group>";
@@ -188,6 +193,15 @@
 			path = "Day 10";
 			sourceTree = "<group>";
 		};
+		58E8EA0D276546AB0044817C /* Day 11 */ = {
+			isa = PBXGroup;
+			children = (
+				58E8EA0E276546C50044817C /* dumboOctopus.swift */,
+				58E8EA10276547A10044817C /* flashes.swift */,
+			);
+			path = "Day 11";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,6 +263,7 @@
 				58E8E9FD275FD5710044817C /* crabHorizontalPositions.swift in Sources */,
 				583ABB0D275AB204001F8F05 /* main.swift in Sources */,
 				58E8E9F6275E9EBF0044817C /* hydrothermalVenture.swift in Sources */,
+				58E8EA11276547A10044817C /* flashes.swift in Sources */,
 				58E8EA0027614F7C0044817C /* signalDigits.swift in Sources */,
 				583ABB29275BDA4C001F8F05 /* bingoSubsystem.swift in Sources */,
 				583ABB24275AD175001F8F05 /* binaryDiagnostics.swift in Sources */,
@@ -259,6 +274,7 @@
 				58E8EA0C2763F31B0044817C /* navigationSubsystem.swift in Sources */,
 				583ABB1F275AC418001F8F05 /* dive.swift in Sources */,
 				583ABB27275BD9D4001F8F05 /* giantSquid.swift in Sources */,
+				58E8EA0F276546C50044817C /* dumboOctopus.swift in Sources */,
 				583ABB1D275ABC73001F8F05 /* plannedCourse.swift in Sources */,
 				58E8E9F4275E9CF00044817C /* linesOfVents.swift in Sources */,
 				58E8EA0A2763F2D30044817C /* syntaxScoring.swift in Sources */,
