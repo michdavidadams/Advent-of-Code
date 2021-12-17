@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(firstIllegalCharacter(navigationSubsystem: navigationSubsystem))
+print(findInitialVelocity(targetArea: targetArea))

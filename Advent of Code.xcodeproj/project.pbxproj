@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		58001AC5276C14A4005F15A6 /* packetDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001AC4276C14A4005F15A6 /* packetDecoder.swift */; };
 		58001AC7276C15E5005F15A6 /* packets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001AC6276C15E5005F15A6 /* packets.swift */; };
+		58001ACA276D0D55005F15A6 /* trickShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001AC9276D0D55005F15A6 /* trickShot.swift */; };
+		58001ACC276D0E23005F15A6 /* targetArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001ACB276D0E23005F15A6 /* targetArea.swift */; };
 		5821F6C3276A702A002E4099 /* chiton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821F6C2276A702A002E4099 /* chiton.swift */; };
 		5821F6C5276A7096002E4099 /* riskLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821F6C4276A7096002E4099 /* riskLevel.swift */; };
 		583ABB0D275AB204001F8F05 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB0C275AB204001F8F05 /* main.swift */; };
@@ -55,6 +57,8 @@
 /* Begin PBXFileReference section */
 		58001AC4276C14A4005F15A6 /* packetDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = packetDecoder.swift; sourceTree = "<group>"; };
 		58001AC6276C15E5005F15A6 /* packets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = packets.swift; sourceTree = "<group>"; };
+		58001AC9276D0D55005F15A6 /* trickShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trickShot.swift; sourceTree = "<group>"; };
+		58001ACB276D0E23005F15A6 /* targetArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = targetArea.swift; sourceTree = "<group>"; };
 		5821F6C2276A702A002E4099 /* chiton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chiton.swift; sourceTree = "<group>"; };
 		5821F6C4276A7096002E4099 /* riskLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = riskLevel.swift; sourceTree = "<group>"; };
 		583ABB09275AB204001F8F05 /* Advent of Code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent of Code"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +111,15 @@
 			path = "Day 16";
 			sourceTree = "<group>";
 		};
+		58001AC8276D0D2B005F15A6 /* Day 17 */ = {
+			isa = PBXGroup;
+			children = (
+				58001AC9276D0D55005F15A6 /* trickShot.swift */,
+				58001ACB276D0E23005F15A6 /* targetArea.swift */,
+			);
+			path = "Day 17";
+			sourceTree = "<group>";
+		};
 		5821F6C1276A700E002E4099 /* Day 15 */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +164,7 @@
 				58474DB5276938C000287B8A /* Day 14 */,
 				5821F6C1276A700E002E4099 /* Day 15 */,
 				58001AC3276C1368005F15A6 /* Day 16 */,
+				58001AC8276D0D2B005F15A6 /* Day 17 */,
 			);
 			path = "Advent of Code";
 			sourceTree = "<group>";
@@ -300,7 +314,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					583ABB08275AB204001F8F05 = {
 						CreatedOnToolsVersion = 13.1;
@@ -331,10 +345,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				58E8E9FD275FD5710044817C /* crabHorizontalPositions.swift in Sources */,
+				58001ACC276D0E23005F15A6 /* targetArea.swift in Sources */,
 				583ABB0D275AB204001F8F05 /* main.swift in Sources */,
 				58001AC5276C14A4005F15A6 /* packetDecoder.swift in Sources */,
 				58474DB72769399900287B8A /* polymers.swift in Sources */,
 				58474DB927693AA800287B8A /* extendedPolymerization.swift in Sources */,
+				58001ACA276D0D55005F15A6 /* trickShot.swift in Sources */,
 				58E8E9F6275E9EBF0044817C /* hydrothermalVenture.swift in Sources */,
 				58E8EA11276547A10044817C /* flashes.swift in Sources */,
 				58E8EA0027614F7C0044817C /* signalDigits.swift in Sources */,
@@ -485,6 +501,7 @@
 		583ABB11275AB204001F8F05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5SVL2L4EZ6;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -496,6 +513,7 @@
 		583ABB12275AB204001F8F05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5SVL2L4EZ6;
 				ENABLE_HARDENED_RUNTIME = YES;
