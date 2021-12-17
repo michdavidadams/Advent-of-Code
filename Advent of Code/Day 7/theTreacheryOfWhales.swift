@@ -36,25 +36,20 @@ func moveCrabs(crabHorizontalPositions: [Int]) {
 // MARK: - Part 2
 func moveCrabs2(crabHorizontalPositions: [Int]) {
     
+    let allPositions = crabHorizontalPositions.max()
     var smallestFuelAmount = 0
-    let demCrabs = crabHorizontalPositions
     
-    for mainCrab in crabHorizontalPositions {
+    for position in 0...allPositions! {
         var fuelTotal = 0
-        for otherCrabs in demCrabs {
-            if otherCrabs > mainCrab {
-                for i in 1...(otherCrabs - mainCrab) {
+        for crab in crabHorizontalPositions {
+            if crab > position {
+                for i in 1...(crab - position) {
                     fuelTotal += i
                 }
-            } else if mainCrab > otherCrabs {
-                for i in 1...(mainCrab - otherCrabs) {
+            } else if position > crab {
+                for i in 1...(position - crab) {
                     fuelTotal += i
                 }
-            } else {
-            }
-            
-            if mainCrab == 2 {
-                print(fuelTotal)
             }
         }
         if smallestFuelAmount == 0 {
@@ -63,6 +58,7 @@ func moveCrabs2(crabHorizontalPositions: [Int]) {
         if fuelTotal < smallestFuelAmount {
             smallestFuelAmount = fuelTotal
         }
+        
     }
     
     print(smallestFuelAmount)

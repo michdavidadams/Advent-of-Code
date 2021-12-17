@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58001AC5276C14A4005F15A6 /* packetDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001AC4276C14A4005F15A6 /* packetDecoder.swift */; };
+		58001AC7276C15E5005F15A6 /* packets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001AC6276C15E5005F15A6 /* packets.swift */; };
+		5821F6C3276A702A002E4099 /* chiton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821F6C2276A702A002E4099 /* chiton.swift */; };
+		5821F6C5276A7096002E4099 /* riskLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5821F6C4276A7096002E4099 /* riskLevel.swift */; };
 		583ABB0D275AB204001F8F05 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB0C275AB204001F8F05 /* main.swift */; };
 		583ABB15275AB255001F8F05 /* sonarSweep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB14275AB255001F8F05 /* sonarSweep.swift */; };
 		583ABB17275AB29E001F8F05 /* depthMeasurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB16275AB29E001F8F05 /* depthMeasurements.swift */; };
@@ -16,6 +20,8 @@
 		583ABB24275AD175001F8F05 /* binaryDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB23275AD175001F8F05 /* binaryDiagnostics.swift */; };
 		583ABB27275BD9D4001F8F05 /* giantSquid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB26275BD9D4001F8F05 /* giantSquid.swift */; };
 		583ABB29275BDA4C001F8F05 /* bingoSubsystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583ABB28275BDA4C001F8F05 /* bingoSubsystem.swift */; };
+		58474DB72769399900287B8A /* polymers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58474DB62769399900287B8A /* polymers.swift */; };
+		58474DB927693AA800287B8A /* extendedPolymerization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58474DB827693AA800287B8A /* extendedPolymerization.swift */; };
 		58E8E9F4275E9CF00044817C /* linesOfVents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9F3275E9CF00044817C /* linesOfVents.swift */; };
 		58E8E9F6275E9EBF0044817C /* hydrothermalVenture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9F5275E9EBF0044817C /* hydrothermalVenture.swift */; };
 		58E8E9FB275FD5580044817C /* theTreacheryOfWhales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8E9FA275FD5580044817C /* theTreacheryOfWhales.swift */; };
@@ -28,6 +34,10 @@
 		58E8EA0C2763F31B0044817C /* navigationSubsystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA0B2763F31B0044817C /* navigationSubsystem.swift */; };
 		58E8EA0F276546C50044817C /* dumboOctopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA0E276546C50044817C /* dumboOctopus.swift */; };
 		58E8EA11276547A10044817C /* flashes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA10276547A10044817C /* flashes.swift */; };
+		58E8EA142766B7E10044817C /* passagePathing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA132766B7E10044817C /* passagePathing.swift */; };
+		58E8EA162766B7FB0044817C /* caveSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA152766B7FB0044817C /* caveSystem.swift */; };
+		58E8EA192767BF2A0044817C /* transparentOrigami.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA182767BF2A0044817C /* transparentOrigami.swift */; };
+		58E8EA1B2767C02A0044817C /* transparentPaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8EA1A2767C02A0044817C /* transparentPaper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +53,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		58001AC4276C14A4005F15A6 /* packetDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = packetDecoder.swift; sourceTree = "<group>"; };
+		58001AC6276C15E5005F15A6 /* packets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = packets.swift; sourceTree = "<group>"; };
+		5821F6C2276A702A002E4099 /* chiton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chiton.swift; sourceTree = "<group>"; };
+		5821F6C4276A7096002E4099 /* riskLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = riskLevel.swift; sourceTree = "<group>"; };
 		583ABB09275AB204001F8F05 /* Advent of Code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent of Code"; sourceTree = BUILT_PRODUCTS_DIR; };
 		583ABB0C275AB204001F8F05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		583ABB14275AB255001F8F05 /* sonarSweep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sonarSweep.swift; sourceTree = "<group>"; };
@@ -53,6 +67,8 @@
 		583ABB23275AD175001F8F05 /* binaryDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaryDiagnostics.swift; sourceTree = "<group>"; };
 		583ABB26275BD9D4001F8F05 /* giantSquid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giantSquid.swift; sourceTree = "<group>"; };
 		583ABB28275BDA4C001F8F05 /* bingoSubsystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bingoSubsystem.swift; sourceTree = "<group>"; };
+		58474DB62769399900287B8A /* polymers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polymers.swift; sourceTree = "<group>"; };
+		58474DB827693AA800287B8A /* extendedPolymerization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extendedPolymerization.swift; sourceTree = "<group>"; };
 		58E8E9F3275E9CF00044817C /* linesOfVents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linesOfVents.swift; sourceTree = "<group>"; };
 		58E8E9F5275E9EBF0044817C /* hydrothermalVenture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydrothermalVenture.swift; sourceTree = "<group>"; };
 		58E8E9FA275FD5580044817C /* theTreacheryOfWhales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theTreacheryOfWhales.swift; sourceTree = "<group>"; };
@@ -65,6 +81,10 @@
 		58E8EA0B2763F31B0044817C /* navigationSubsystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationSubsystem.swift; sourceTree = "<group>"; };
 		58E8EA0E276546C50044817C /* dumboOctopus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dumboOctopus.swift; sourceTree = "<group>"; };
 		58E8EA10276547A10044817C /* flashes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flashes.swift; sourceTree = "<group>"; };
+		58E8EA132766B7E10044817C /* passagePathing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passagePathing.swift; sourceTree = "<group>"; };
+		58E8EA152766B7FB0044817C /* caveSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caveSystem.swift; sourceTree = "<group>"; };
+		58E8EA182767BF2A0044817C /* transparentOrigami.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transparentOrigami.swift; sourceTree = "<group>"; };
+		58E8EA1A2767C02A0044817C /* transparentPaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transparentPaper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58001AC3276C1368005F15A6 /* Day 16 */ = {
+			isa = PBXGroup;
+			children = (
+				58001AC4276C14A4005F15A6 /* packetDecoder.swift */,
+				58001AC6276C15E5005F15A6 /* packets.swift */,
+			);
+			path = "Day 16";
+			sourceTree = "<group>";
+		};
+		5821F6C1276A700E002E4099 /* Day 15 */ = {
+			isa = PBXGroup;
+			children = (
+				5821F6C2276A702A002E4099 /* chiton.swift */,
+				5821F6C4276A7096002E4099 /* riskLevel.swift */,
+			);
+			path = "Day 15";
+			sourceTree = "<group>";
+		};
 		583ABB00275AB204001F8F05 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +146,11 @@
 				58E8EA0327629C6E0044817C /* Day 9 */,
 				58E8EA082763F2AB0044817C /* Day 10 */,
 				58E8EA0D276546AB0044817C /* Day 11 */,
+				58E8EA122766B7C10044817C /* Day 12 */,
+				58E8EA172767BF120044817C /* Day 13 */,
+				58474DB5276938C000287B8A /* Day 14 */,
+				5821F6C1276A700E002E4099 /* Day 15 */,
+				58001AC3276C1368005F15A6 /* Day 16 */,
 			);
 			path = "Advent of Code";
 			sourceTree = "<group>";
@@ -146,6 +189,15 @@
 				583ABB28275BDA4C001F8F05 /* bingoSubsystem.swift */,
 			);
 			path = "Day 4";
+			sourceTree = "<group>";
+		};
+		58474DB5276938C000287B8A /* Day 14 */ = {
+			isa = PBXGroup;
+			children = (
+				58474DB827693AA800287B8A /* extendedPolymerization.swift */,
+				58474DB62769399900287B8A /* polymers.swift */,
+			);
+			path = "Day 14";
 			sourceTree = "<group>";
 		};
 		58E8E9F2275E9CBB0044817C /* Day 5 */ = {
@@ -200,6 +252,24 @@
 				58E8EA10276547A10044817C /* flashes.swift */,
 			);
 			path = "Day 11";
+			sourceTree = "<group>";
+		};
+		58E8EA122766B7C10044817C /* Day 12 */ = {
+			isa = PBXGroup;
+			children = (
+				58E8EA132766B7E10044817C /* passagePathing.swift */,
+				58E8EA152766B7FB0044817C /* caveSystem.swift */,
+			);
+			path = "Day 12";
+			sourceTree = "<group>";
+		};
+		58E8EA172767BF120044817C /* Day 13 */ = {
+			isa = PBXGroup;
+			children = (
+				58E8EA182767BF2A0044817C /* transparentOrigami.swift */,
+				58E8EA1A2767C02A0044817C /* transparentPaper.swift */,
+			);
+			path = "Day 13";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,23 +332,33 @@
 			files = (
 				58E8E9FD275FD5710044817C /* crabHorizontalPositions.swift in Sources */,
 				583ABB0D275AB204001F8F05 /* main.swift in Sources */,
+				58001AC5276C14A4005F15A6 /* packetDecoder.swift in Sources */,
+				58474DB72769399900287B8A /* polymers.swift in Sources */,
+				58474DB927693AA800287B8A /* extendedPolymerization.swift in Sources */,
 				58E8E9F6275E9EBF0044817C /* hydrothermalVenture.swift in Sources */,
 				58E8EA11276547A10044817C /* flashes.swift in Sources */,
 				58E8EA0027614F7C0044817C /* signalDigits.swift in Sources */,
+				58E8EA192767BF2A0044817C /* transparentOrigami.swift in Sources */,
 				583ABB29275BDA4C001F8F05 /* bingoSubsystem.swift in Sources */,
 				583ABB24275AD175001F8F05 /* binaryDiagnostics.swift in Sources */,
 				58E8EA0727629D1F0044817C /* heightmap.swift in Sources */,
 				58E8EA02276153B40044817C /* sevenSegmentSearch.swift in Sources */,
+				5821F6C3276A702A002E4099 /* chiton.swift in Sources */,
 				58E8EA0527629C840044817C /* smokeBasin.swift in Sources */,
+				58E8EA1B2767C02A0044817C /* transparentPaper.swift in Sources */,
+				58E8EA142766B7E10044817C /* passagePathing.swift in Sources */,
 				583ABB17275AB29E001F8F05 /* depthMeasurements.swift in Sources */,
 				58E8EA0C2763F31B0044817C /* navigationSubsystem.swift in Sources */,
 				583ABB1F275AC418001F8F05 /* dive.swift in Sources */,
+				58001AC7276C15E5005F15A6 /* packets.swift in Sources */,
+				58E8EA162766B7FB0044817C /* caveSystem.swift in Sources */,
 				583ABB27275BD9D4001F8F05 /* giantSquid.swift in Sources */,
 				58E8EA0F276546C50044817C /* dumboOctopus.swift in Sources */,
 				583ABB1D275ABC73001F8F05 /* plannedCourse.swift in Sources */,
 				58E8E9F4275E9CF00044817C /* linesOfVents.swift in Sources */,
 				58E8EA0A2763F2D30044817C /* syntaxScoring.swift in Sources */,
 				583ABB22275AD092001F8F05 /* diagnosticReport.swift in Sources */,
+				5821F6C5276A7096002E4099 /* riskLevel.swift in Sources */,
 				58E8E9FB275FD5580044817C /* theTreacheryOfWhales.swift in Sources */,
 				583ABB15275AB255001F8F05 /* sonarSweep.swift in Sources */,
 			);
